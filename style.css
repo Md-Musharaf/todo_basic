@@ -5,6 +5,26 @@ body {
     padding: 20px;
 }
 
+.addButton {
+    transition: transform 0.2s
+}
+
+.addButton:hover {
+    transform: scale(1.1);
+}
+
+.divClass {
+    background-color: rgb(50, 57, 77);
+    border-radius: 6px;
+    margin: 10px;
+    transition: transform 0.2s
+}
+
+.divClass:hover {
+    transform: scale(1.025);
+}
+
+
 .heading {
     font-size: 40px;
     text-align: center;
